@@ -1,8 +1,8 @@
-package ru.academit;
+package ru.academit.shestialtynov.countriesjson.countriesjson;
 
 import java.util.List;
 
-public class RegionalBlock {
+public class RegionalBloc {
     private String acronym;
     private String name;
     private List<String> otherAcronyms;

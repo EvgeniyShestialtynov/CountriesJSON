@@ -1,4 +1,4 @@
-package ru.academit;
+package ru.academit.shestialtynov.countriesjson.countriesjson;
 
 public class Language {
     private String iso639_1;

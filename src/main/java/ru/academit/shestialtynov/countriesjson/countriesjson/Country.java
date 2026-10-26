@@ -1,4 +1,5 @@
-package ru.academit;
+package ru.academit.shestialtynov.countriesjson.countriesjson;
+
 import java.util.List;
 import java.util.Map;
 
@@ -20,12 +21,12 @@ public class Country {
     private List<String> timezones;
     private List<String> borders;
     private String nativeName;
-    private int numericCode;
+    private String numericCode;
     private List<Currency> currencies;
     private List<Language> languages;
     private Map<String, String> translations;
     private String flag;
-    private RegionalBlock regionalBlocks;
+    private List<RegionalBloc> regionalBlocs;
     private String cioc;
 
     public String getName() {
@@ -164,11 +165,11 @@ public class Country {
         this.nativeName = nativeName;
     }
 
-    public int getNumericCode() {
+    public String getNumericCode() {
         return numericCode;
     }
 
-    public void setNumericCode(int numericCode) {
+    public void setNumericCode(String numericCode) {
         this.numericCode = numericCode;
     }
 
@@ -204,12 +205,12 @@ public class Country {
         this.flag = flag;
     }
 
-    public RegionalBlock getRegionalBlocks() {
-        return regionalBlocks;
+    public List<RegionalBloc> getRegionalBlocs() {
+        return regionalBlocs;
     }
 
-    public void setRegionalBlocks(RegionalBlock regionalBlocks) {
-        this.regionalBlocks = regionalBlocks;
+    public void setRegionalBlocs(List<RegionalBloc> regionalBlocs) {
+        this.regionalBlocs = regionalBlocs;
     }
 
     public String getCioc() {
